@@ -75,3 +75,7 @@ button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   color: darkgreen;
   padding: 10px;
 }
+#world{
+  width:100%;
+}
+
