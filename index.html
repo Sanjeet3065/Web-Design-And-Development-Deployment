@@ -177,7 +177,29 @@
     <button id="increment">Increase</button>
     <button id="decrement">Decrease</button>
   </section>
-
+<h2>Clickable World Map Hotspots</h2>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/World_map_-_low_resolution.svg"
+       alt="World Map"
+       usemap="#worldmap">
+  <map name="worldmap">
+    <area shape="rect"
+          coords="80,130,160,180"
+          href="usa.html"
+          alt="United States"
+          target="_blank"
+          title="Click to visit USA page">
+    <area shape="circle"
+          coords="620,230,35"
+          href="india.html"
+           target="_blank"
+          alt="India"
+          title="Click to visit India page">
+    <area shape="poly"
+          coords="740,360,780,390,820,410,850,370,800,340"
+          href="australia.html"
+           target="_blank"
+          alt="Australia"
+          title="Click to visit Australia page">
   <!-- SECTION 10: RANDOM QUOTE -->
   <section>
     <h2>Random Quote Generator</h2>
@@ -187,3 +209,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
