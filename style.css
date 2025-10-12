@@ -1,0 +1,77 @@
+/* General */
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  color: darkblue;
+}
+section {
+  margin: 20px 0;
+  padding: 15px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 16px;
+}
+.navbar a:hover {
+  background-color: #575757;
+  border-radius: 5px;
+}
+
+/* Gallery Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.grid-container img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+/* Buttons */
+button, input[type="submit"], input[type="reset"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+  background-color: #0056b3;
+}
+
+/* Quote */
+#quote-container {
+  text-align: center;
+  font-size: 22px;
+  color: darkgreen;
+  padding: 10px;
+}

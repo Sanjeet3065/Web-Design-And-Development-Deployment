@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All Experiments Combined</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- SECTION 1: HEADINGS -->
+  <section id="home">
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+  </section>
+
+  <!-- SECTION 2: LISTS -->
+  <section>
+    <ol>
+      <li>Registration</li>
+      <li>Vital Check</li>
+    </ol>
+    <ul>
+      <li>Doctor Consultation</li>
+      <li>Lab Test</li>
+      <li>Blood Pressure</li>
+      <li>Temperature</li>
+      <li>Payment</li>
+    </ul>
+  </section>
+
+  <!-- SECTION 3: TABLE -->
+  <section>
+    <table border="1">
+      <thead>
+        <tr>
+          <th colspan="3">Daily News</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Politics</td>
+          <td>Sports</td>
+          <td>Weather</td>
+        </tr>
+        <tr>
+          <td>Community</td>
+          <td>Hockey</td>
+          <td>Wind</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- SECTION 4: IMAGE MAP -->
+  <section>
+    <h3>Clickable Cricket Image</h3>
+    <img src="sample.jpg" alt="Cricket field" height="250px" usemap="#cricket">
+    <map name="cricket">
+      <area shape="rect" coords="0,0,300,300" href="cricket.html" alt="Bat">
+    </map>
+  </section>
+
+  <!-- SECTION 5: TEA RECIPE -->
+  <section>
+    <h3>Task 1: Make Tea</h3>
+    <ol>
+      <li>Ingredients
+        <ul>
+          <li>1 cup water</li>
+          <li>1 tsp tea leaves</li>
+          <li>1 tsp sugar</li>
+          <li>1/2 cup milk</li>
+        </ul>
+      </li>
+      <li>Steps
+        <ul>
+          <li>Boil water</li>
+          <li>Add tea leaves</li>
+          <li>Add sugar</li>
+          <li>Add milk and boil again</li>
+          <li>Strain and serve hot</li>
+        </ul>
+      </li>
+    </ol>
+  </section>
+
+  <!-- SECTION 6: TIMETABLE -->
+  <section>
+    <table border="1">
+      <caption><b>Time Table</b></caption>
+      <tr>
+        <th>Day</th>
+        <th>9-11 AM</th>
+        <th>12-1 PM</th>
+        <th>2-4 PM</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td colspan="2">Maths</td>
+        <td>Science</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>Math</td>
+        <td colspan="2">Physics</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td colspan="3">Game</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- SECTION 7: RESTAURANT FORM -->
+  <section>
+    <h3>Restaurant Order Form</h3>
+    <form>
+      Your Name: <input type="text" placeholder="Name" required><br><br>
+
+      <b>Please Select Your Order:</b><br>
+      <label><input type="checkbox" value="Pizza"> Pizza</label>
+      <label><input type="checkbox" value="Burger"> Burger</label>
+      <label><input type="checkbox" value="Pasta"> Pasta</label>
+      <label><input type="checkbox" value="Chowmin"> Chowmin</label><br><br>
+
+      <b>Select Drink:</b>
+      <select>
+        <option>Coca Cola</option>
+        <option>Mountain Dew</option>
+        <option>Pepsi</option>
+        <option>Sprite</option>
+      </select><br><br>
+
+      <b>Choose one Gift:</b><br>
+      <label><input type="radio" name="gift" value="Tea"> Tea</label>
+      <label><input type="radio" name="gift" value="Coffee"> Coffee</label>
+      <label><input type="radio" name="gift" value="50% Discount"> 50% Discount</label><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </section>
+
+  <!-- SECTION 8: IMAGE GALLERY -->
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <div class="grid-container">
+      <img src="images (1).jpeg" alt="photo1">
+      <img src="images (2).jpeg" alt="photo2">
+      <img src="images (3).jpeg" alt="photo3">
+      <img src="image (4).jpeg" alt="photo4">
+      <img src="image (5).jpg" alt="photo5">
+      <img src="image (6).jpg" alt="photo6">
+    </div>
+  </section>
+
+  <!-- SECTION 9: INTERACTIVE JS TASKS -->
+  <section>
+    <h1 id="title">This is Experiment 6</h1>
+    <button id="change-color">Change Color</button>
+    <h2 id="counter">COUNTER :- 0</h2>
+    <button id="increment">Increase</button>
+    <button id="decrement">Decrease</button>
+  </section>
+
+  <!-- SECTION 10: RANDOM QUOTE -->
+  <section>
+    <h2>Random Quote Generator</h2>
+    <div id="quote-container"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
