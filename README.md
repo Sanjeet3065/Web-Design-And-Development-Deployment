@@ -8,7 +8,6 @@ A deployed **college web development experiment** created for practicing HTML, C
 
 - **Source / Experiments Repository:** [Web-Design-And-Development](https://github.com/Sanjeet3065/Web-Design-And-Development)
 - **Deployed Repository:** [Web-Design-And-Development-Deployment](https://github.com/Sanjeet3065/Web-Design-And-Development-Deployment)
-- **GitHub Pages:** This repository is configured for deployment through GitHub Pages. Open the repository's **Settings → Pages** section to view or configure the live site URL.
 
 ## 🚀 Live Demo
 
@@ -132,7 +131,6 @@ This project helps practice:
 - Add a proper responsive navigation menu
 - Optimize image sizes and use descriptive filenames
 - Add a backend for form submission
-- Add a dedicated live-demo link after GitHub Pages configuration
 
 ## 👨‍💻 Author
 
