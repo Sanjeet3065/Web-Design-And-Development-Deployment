@@ -1,6 +1,6 @@
 # 🌐 Web Design & Development — Deployment
 
-A deployed **college web development experiment** created for practicing HTML, CSS, and JavaScript fundamentals. This repository contains a combined, browser-ready version of the experiments from the original practice repository.
+A deployed **college web development experiment** created for practicing HTML, CSS, and JavaScript fundamentals. This repository contains a combined, browser-ready version of the experiments from the [Web-Design-And-Development](https://github.com/Sanjeet3065/Web-Design-And-Development) repository.
 
 > **Educational Note:** This is a college experiment and practice project. It is created primarily for learning and improving web development skills, not as a production-ready application.
 
@@ -10,9 +10,13 @@ A deployed **college web development experiment** created for practicing HTML, C
 - **Deployed Repository:** [Web-Design-And-Development-Deployment](https://github.com/Sanjeet3065/Web-Design-And-Development-Deployment)
 - **GitHub Pages:** This repository is configured for deployment through GitHub Pages. Open the repository's **Settings → Pages** section to view or configure the live site URL.
 
+## 🚀 Live Demo
+
+**Visit the live deployment here:** 👉 [https://sanjeet3065.github.io/Web-Design-And-Development-Deployment/](https://sanjeet3065.github.io/Web-Design-And-Development-Deployment/)
+
 ## ✨ Project Overview
 
-The project brings multiple web development exercises together on a single webpage. It demonstrates basic page structure, styling, forms, images, navigation, interactive controls, and JavaScript-based DOM manipulation.
+The project brings multiple web development exercises together on a single webpage. It demonstrates basic page structure, styling, forms, images, navigation, interactive controls, and JavaScript-based interactivity. All experiments are combined into a single, deployable website.
 
 The main page is available in [`index.html`](./index.html).
 
