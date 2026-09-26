@@ -1,6 +1,6 @@
 # 🌐 Web Design & Development — Deployment
 
-A deployed **college web development experiment** created for practicing HTML, CSS, and JavaScript fundamentals. This repository contains a combined, browser-ready version of the experiments from the [Web-Design-And-Development](https://github.com/Sanjeet3065/Web-Design-And-Development) repository.
+A deployed **college web development experiment** created for practicing HTML, CSS, and JavaScript fundamentals. This repository contains a combined, browser-ready version of the experiments from the source repository.
 
 > **Educational Note:** This is a college experiment and practice project. It is created primarily for learning and improving web development skills, not as a production-ready application.
 
@@ -15,7 +15,7 @@ A deployed **college web development experiment** created for practicing HTML, C
 
 ## ✨ Project Overview
 
-The project brings multiple web development exercises together on a single webpage. It demonstrates basic page structure, styling, forms, images, navigation, interactive controls, and JavaScript-based interactivity. All experiments are combined into a single, deployable website.
+The project brings multiple web development exercises together on a single webpage. It demonstrates basic page structure, styling, forms, images, navigation, interactive controls, and JavaScript-based functionality.
 
 The main page is available in [`index.html`](./index.html).
 
@@ -121,16 +121,6 @@ This project helps practice:
 - The project does not use a database or server-side application.
 - Some pages and interactions are intentionally simple so that the underlying concepts remain easy to understand.
 - Image filenames contain spaces; keep the filenames unchanged unless the references in `index.html` are updated as well.
-
-## 🔮 Possible Future Improvements
-
-- Improve mobile responsiveness with media queries
-- Add form validation and user-friendly feedback
-- Replace inline table borders with reusable CSS styles
-- Improve accessibility with better labels and keyboard navigation
-- Add a proper responsive navigation menu
-- Optimize image sizes and use descriptive filenames
-- Add a backend for form submission
 
 ## 👨‍💻 Author
 
